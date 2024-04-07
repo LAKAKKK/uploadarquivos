@@ -1,0 +1,17 @@
+a)valores: -file_uploads=On; Maximum number of files that can be uploaded via a single request
+           
+           -max_file_uploads=20
+           
+           -upload_max_filesize=40M; 
+           
+           -upload_tmp_dir="C:\xampp\tmp"
+
+           -post_max_size=40M;
+
+           -max_input_time=60
+
+b) is_uploaded_file(): Verifica se o arquivo foi enviado via HTTP POST. 
+   move_uploaded_file(): Move um arquivo enviado para um novo local.
+
+c) <input type="hidden"> é usada para criar um campo de entrada oculto em um formulário HTML.
+
